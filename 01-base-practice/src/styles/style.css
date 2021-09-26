@@ -1,0 +1,63 @@
+.main-block {
+    width: 1400px;
+    height: 440px;
+    top: 2px;
+    left: -623px;
+    background-color: #FFFFFF;
+    margin: 45px;
+}
+
+.rectangle1 {
+    width: 428px;
+    height: 350px;
+    left: 79px;
+    top: 45px;
+    float: left;
+    background-color: #DBDCDD;
+}
+
+.rectangle2 {
+    width: 744px;
+    height: 46px;
+    left: 566px;
+    top: 45px;
+    float: right;
+    background-color: #E8C734;
+}
+
+.about-me {
+    width: 96px;
+    height: 26px;
+    top: 55px;
+    left: 603px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.rectangle3 {
+    width: 744px;
+    height: 91px;
+    left: 566px;
+    top: 120px;
+    float: right;
+    margin-top: 30px;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 160%;
+    text-align: left;
+}
+
+.photo {
+    width: 428px;
+    height: 350px;
+    left: 79px;
+    top: 45px;
+}
