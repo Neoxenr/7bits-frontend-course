@@ -4,7 +4,8 @@
   top: 2px;
   left: -623px;
   background-color: #fff;
-  margin: 45px;
+  margin-top: 45px;
+  margin-left: 70px;
 }
 
 .rectangle1 {
@@ -13,6 +14,7 @@
   left: 79px;
   top: 45px;
   float: left;
+  position: absolute;
   background-color: #dbdcdd;
 }
 
@@ -21,6 +23,8 @@
   height: 46px;
   left: 566px;
   top: 45px;
+  margin: 0;
+  position: absolute;
   float: right;
   background-color: #e8c734;
 }
@@ -34,7 +38,7 @@
   font-size: 22px;
   line-height: 26px;
   margin-top: 10px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .rectangle3 {
@@ -42,8 +46,8 @@
   height: 91px;
   left: 566px;
   top: 120px;
+  position: absolute;
   float: right;
-  margin-top: 30px;
 }
 
 .description {
