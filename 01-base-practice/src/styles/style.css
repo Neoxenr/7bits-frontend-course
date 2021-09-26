@@ -14,7 +14,6 @@
   left: 79px;
   top: 45px;
   float: left;
-  position: absolute;
   background-color: #dbdcdd;
 }
 
@@ -23,9 +22,8 @@
   height: 46px;
   left: 566px;
   top: 45px;
-  margin: 0;
-  position: absolute;
   float: right;
+  margin-right: 170px;
   background-color: #e8c734;
 }
 
@@ -46,8 +44,9 @@
   height: 91px;
   left: 566px;
   top: 120px;
-  position: absolute;
   float: right;
+  margin-top: 30px;
+  margin-right: 168px;
 }
 
 .description {
