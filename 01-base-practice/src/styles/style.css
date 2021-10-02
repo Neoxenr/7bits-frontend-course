@@ -1,66 +1,49 @@
 .main-block {
   width: 1400px;
   height: 440px;
-  top: 2px;
-  left: -623px;
-  background-color: #fff;
   margin-top: 45px;
   margin-left: 70px;
-}
-
-.rectangle1 {
-  width: 428px;
-  height: 350px;
-  left: 79px;
-  top: 45px;
-  float: left;
-  background-color: #dbdcdd;
-}
-
-.rectangle2 {
-  width: 744px;
-  height: 46px;
-  left: 566px;
-  top: 45px;
-  float: right;
-  margin-right: 170px;
-  background-color: #e8c734;
-}
-
-.about-me {
-  width: 96px;
-  height: 26px;
-  top: 55px;
-  left: 603px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 22px;
-  line-height: 26px;
-  margin-top: 10px;
-  margin-left: 40px;
-}
-
-.rectangle3 {
-  width: 744px;
-  height: 91px;
-  left: 566px;
-  top: 120px;
-  float: right;
-  margin-top: 30px;
-  margin-right: 168px;
-}
-
-.description {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 160%;
-  text-align: left;
+  background-color: #fff;
 }
 
 .photo {
   width: 428px;
   height: 350px;
-  left: 79px;
-  top: 45px;
+  float: left;
+}
+
+.main-hat {
+  width: 744px;
+  height: 46px;
+  margin-right: 170px;
+  background-color: #e8c734;
+  float: right;
+}
+
+.main-hat-name {
+  margin: 0;
+  width: 96px;
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-description {
+  width: 744px;
+  height: 91px;
+  margin-right: 168px;
+  padding-top: 8px;
+  float: right;
+}
+
+.main-description-context {
+  font-size: 19px;
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
 }
