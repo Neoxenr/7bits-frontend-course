@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Roboto";
-  src: url(http://fonts.gstatic.com/s/roboto/v15/mErvLBYg_cXG3rLvUsKT_fesZW2xOQ-xsNqO47m55DA.woff2);
-}
-
 body {
   margin: 0;
 }
@@ -19,7 +14,7 @@ body {
 }
 
 .header__title {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 50px;
   font-weight: normal;
   text-transform: uppercase;
@@ -28,7 +23,7 @@ body {
 }
 
 .header__subtitle {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 27px;
   font-weight: normal;
   color: #434244;
@@ -44,7 +39,7 @@ body {
 .contacts__item {
   display: inline-block;
   margin-right: 10px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 17px;
 }
 
@@ -87,7 +82,7 @@ body {
   display: inline-block;
   padding: 10px 35px;
   background-color: #e8c734;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 23px;
   font-weight: bold;
   color: #434244;
@@ -99,7 +94,7 @@ body {
 
 .personal-info__text {
   margin: 0;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 20px;
   line-height: 32px;
   color: #434244;
@@ -124,7 +119,7 @@ body {
 .personal-experience__date {
   margin: 0 0 25px;
   display: inline-block;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -134,7 +129,7 @@ body {
 
 .personal-experience__title {
   margin: 0 0 5px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -144,7 +139,7 @@ body {
 
 .personal-experience__company {
   margin: 0 0 25px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -159,7 +154,7 @@ body {
 }
 
 .personal-experience__text {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
