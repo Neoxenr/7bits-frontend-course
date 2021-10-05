@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+}
+
+header,
+main {
+  width: 1060px;
+  margin: 0;
+}
+
+header {
+  margin: 70px 70px 59px;
+}
+
+main {
+  margin: 0 65px 275px 70px;
+  padding-right: 5px;
+}
+
+.header__title {
+  margin: 0 273px 0 0;
+  font-family: "Inconsolata", monospace;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.sections {
+  padding: 0;
+  margin: 0;
+  height: 31px;
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.header__sections-item {
+  margin: 0 0 0 94.4px;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+.header__sections-link {
+  margin: 7px 0 8px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-style: normal;
+  display: inline-block;
+  color: #626262;
+}
+
+.main__cover-image {
+  margin-bottom: 85px;
+}
+
+.main__left,
+.main__right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main__left {
+  width: 660px;
+  height: 1167px;
+  margin: 0 74px 0 50px;
+}
+
+.main__right {
+  width: 272px;
+  height: 556px;
+}
+
+.photodiary__section-name {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.photodiary__title {
+  margin: 20px 0 40px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #424243;
+}
+
+.photodiary__description {
+  width: 660px;
+  height: 210px;
+  display: inline-block;
+}
+
+.photodiary__text {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.photodiary__image {
+  margin: 101px 0 40px 0;
+}
+
+.sidebar__image {
+  margin-bottom: 30px;
+}
+
+.sidebar__title {
+  margin: 0 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sidebar__description {
+  width: 277px;
+  height: 51px;
+  display: inline-block;
+}
+
+.sidebar__text {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.sidebar__posts-title {
+  margin: 35px 0 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.sidebar__posts {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: #bababa;
+}
+
+.posts__item {
+  margin: 0 0 0 18px;
+  padding: 0 0 0 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.post__title {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  color: #424243;
+}
+
+.post__comments {
+  margin: 0 0 25px 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #626262;
+}
+
+footer {
+  width: 1080px;
+  height: 100px;
+  background-color: #f0f0f0;
+  padding-left: 120px;
+}
+
+.footer__sections-item {
+  margin: 40px 30px 39px 0;
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer__sections-link {
+  margin: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #424243;
+}
