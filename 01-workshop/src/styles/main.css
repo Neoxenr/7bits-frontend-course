@@ -78,7 +78,7 @@ body {
 }
 
 .personal-info__title,
-.personal-experience__item {
+.personal-experience__title {
   margin: 0;
   display: inline-block;
   padding: 10px 35px;
@@ -111,7 +111,7 @@ body {
   display: inline-block;
 }
 
-.item {
+.personal-experience__item {
   margin: 50px 0 60px;
   width: 608px;
   height: 191px;
