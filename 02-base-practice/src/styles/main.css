@@ -26,12 +26,11 @@ main {
   width: 360px;
   height: 244px;
   margin-bottom: 60px;
-  background-image: url(../images/post_image.jpg);
 }
 
-/* .main__post__header__image {
+.main__post__header__image {
   position: absolute;
-} */
+}
 
 .main__post__header__image-link {
   position: absolute;
