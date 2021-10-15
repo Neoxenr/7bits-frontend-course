@@ -58,7 +58,7 @@ main {
 .main__post__description__adventures,
 .main__post__description__date,
 .main__post__description__comment__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 19px;
@@ -83,19 +83,19 @@ main {
 }
 
 .main__post__description__date {
-  margin-bottom: 46px;
+  margin-bottom: 42px;
 }
 
 .main__post__description__button-border {
+  margin: 4px 0 4px 30px;
   width: 35px;
   border: 0.1px solid #d6d6d6;
 }
 
 .main__post__description__button {
-  padding: 4px;
   border: none;
   background: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 16px;
@@ -104,10 +104,18 @@ main {
   color: #999;
 }
 
+.main__post__description__button:hover {
+  color: #ff835b;
+}
+
+.main__post__description__button:hover .main__post__description__button-border {
+  border: 0.1px solid #ff835b;
+}
+
 .main__post__description__comment {
   display: flex;
   border-top: 1px solid #f5f5f5;
-  margin-top: 30px;
+  margin-top: 26px;
   height: 41px;
   width: 360px;
 }
