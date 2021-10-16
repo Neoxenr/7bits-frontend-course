@@ -29,7 +29,8 @@ main {
 }
 
 .main__post__header__image {
-  position: absolute;
+  height: 246px;
+  width: 360px;
 }
 
 .main__post__header__image-link {
