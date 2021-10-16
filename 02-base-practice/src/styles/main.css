@@ -29,13 +29,13 @@ main {
 }
 
 .main__post__header__image {
-  height: 242.8px;
+  height: 242px;
   width: 360px;
 }
 
 .main__post__header__image-link {
   position: absolute;
-  bottom: -16px;
+  bottom: -14px;
   left: 159px;
   width: 42px;
   height: 32px;
