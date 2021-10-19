@@ -1,0 +1,49 @@
+.main-block {
+  width: 1400px;
+  height: 440px;
+  margin-top: 45px;
+  margin-left: 70px;
+  background-color: #fff;
+}
+
+.photo {
+  width: 428px;
+  height: 350px;
+  float: left;
+}
+
+.main-hat {
+  width: 744px;
+  height: 46px;
+  margin-right: 170px;
+  background-color: #e8c734;
+  float: right;
+}
+
+.main-hat-name {
+  margin: 0;
+  width: 96px;
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  padding-top: 10px;
+  padding-left: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-description {
+  width: 744px;
+  height: 91px;
+  margin-right: 168px;
+  padding-top: 8px;
+  float: right;
+}
+
+.main-description-context {
+  font-size: 19px;
+  line-height: 160%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
