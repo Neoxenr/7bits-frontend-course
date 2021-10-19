@@ -60,12 +60,10 @@ main {
   height: 23px;
 }
 
-.main__content__item:nth-of-type(odd)
-.main__content__item__progress-bar::before {
+.main__content__item:nth-of-type(odd) .main__content__item__progress-bar::before {
   width: 398px;
 }
 
-.main__content__item:nth-of-type(even)
-.main__content__item__progress-bar::before {
+.main__content__item:nth-of-type(even) .main__content__item__progress-bar::before {
   width: 462px;
 }
