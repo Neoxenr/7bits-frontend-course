@@ -24,18 +24,18 @@ main {
 .main__post__header {
   position: relative;
   width: 360px;
-  height: 244px;
+  height: 243px;
   margin-bottom: 60px;
 }
 
 .main__post__header__image {
-  height: 242px;
+  height: 243px;
   width: 360px;
 }
 
 .main__post__header__image-link {
   position: absolute;
-  bottom: -14px;
+  bottom: -16px;
   left: 159px;
   width: 42px;
   height: 32px;
@@ -59,7 +59,7 @@ main {
 .main__post__description__adventures,
 .main__post__description__date,
 .main__post__description__comment__text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 19px;
@@ -75,7 +75,7 @@ main {
 .main__post__description__title {
   margin-bottom: 15px;
   color: #35353c;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-style: normal;
   line-height: 24px;
@@ -87,16 +87,12 @@ main {
   margin-bottom: 42px;
 }
 
-.main__post__description__button-border {
-  margin: 4px 0 4px 30px;
-  width: 35px;
-  border: 0.1px solid #d6d6d6;
-}
-
 .main__post__description__button {
   border: none;
   background: none;
-  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: 16px;
@@ -105,12 +101,30 @@ main {
   color: #999;
 }
 
+.main__post__description__button::after, .main__post__description__button::before {
+  content: '';
+  position: absolute;
+  width: 36px;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+
+.main__post__description__button::before {
+  top: -5px;
+  right: 30px;
+}
+
+.main__post__description__button::after {
+  top: 20px;
+  right: 30px;
+}
+
 .main__post__description__button:hover {
   color: #ff835b;
 }
 
-.main__post__description__button:hover .main__post__description__button-border {
-  border: 0.1px solid #ff835b;
+.main__post__description__button:hover::before, .main__post__description__button:hover::after {
+  background-color: #ff835b;
 }
 
 .main__post__description__comment {
