@@ -101,8 +101,9 @@ main {
   color: #999;
 }
 
-.main__post__description__button::after, .main__post__description__button::before {
-  content: '';
+.main__post__description__button::after,
+.main__post__description__button::before {
+  content: "";
   position: absolute;
   width: 36px;
   height: 1px;
@@ -123,7 +124,8 @@ main {
   color: #ff835b;
 }
 
-.main__post__description__button:hover::before, .main__post__description__button:hover::after {
+.main__post__description__button:hover::before,
+.main__post__description__button:hover::after {
   background-color: #ff835b;
 }
 
