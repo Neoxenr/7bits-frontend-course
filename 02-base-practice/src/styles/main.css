@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 472px;
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__post {
+  width: 360px;
+  height: 555px;
+  box-shadow: 0 2px 30px rgba(21, 20, 53, 0.3);
+}
+
+.main__post__header {
+  position: relative;
+  width: 360px;
+  height: 242px;
+  margin-bottom: 60px;
+}
+
+.main__post__header__image {
+  height: 242px;
+  width: 360px;
+}
+
+.main__post__header__image-link {
+  position: absolute;
+  bottom: -16px;
+  left: 159px;
+  width: 42px;
+  height: 32px;
+  background: url(../images/post_image-icon.svg) no-repeat;
+}
+
+.main__post__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__post__description__adventures,
+.main__post__description__title,
+.main__post__description__date,
+.main__post__description__comment,
+.main__post__description__button {
+  text-transform: uppercase;
+}
+
+.main__post__description__adventures,
+.main__post__description__date,
+.main__post__description__comment__text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #999;
+}
+
+.main__post__description__adventures {
+  margin-bottom: 15px;
+}
+
+.main__post__description__title {
+  margin-bottom: 15px;
+  color: #35353c;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.08em;
+  text-align: left;
+}
+
+.main__post__description__date {
+  margin-bottom: 42px;
+}
+
+.main__post__description__button {
+  border: none;
+  background: none;
+  margin: 10px 0;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.06em;
+  text-align: left;
+  color: #999;
+}
+
+.main__post__description__button::after,
+.main__post__description__button::before {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 1px;
+  background-color: #d6d6d6;
+}
+
+.main__post__description__button::before {
+  top: -5px;
+  right: 30px;
+}
+
+.main__post__description__button::after {
+  top: 20px;
+  right: 30px;
+}
+
+.main__post__description__button:hover {
+  color: #ff835b;
+}
+
+.main__post__description__button:hover::before,
+.main__post__description__button:hover::after {
+  background-color: #ff835b;
+}
+
+.main__post__description__comment {
+  display: flex;
+  border-top: 1px solid #f5f5f5;
+  margin-top: 26px;
+  height: 41px;
+  width: 360px;
+}
+
+.main__post__description__coment__link {
+  width: 22px;
+  height: 22px;
+  margin: 16px 0 0 27px;
+  background: url(../images/post_coment-icon.svg) no-repeat;
+}
+
+.main__post__description__comment__text {
+  margin: 18px 180px 0 10px;
+}
