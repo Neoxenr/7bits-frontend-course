@@ -135,7 +135,7 @@
 
 @media screen and (max-width: 360px) {
   .blog__footer {
-    margin-top: -340px;
+    margin-top: -350px;
     height: 736px;
     background: url(../images/footer_image2.jpg) no-repeat;
   }
