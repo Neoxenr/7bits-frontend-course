@@ -9,6 +9,7 @@
 .blog {
   position: relative;
   max-width: 2000px;
+  height: 2000px;
   width: 100%;
 }
 
@@ -134,8 +135,12 @@
 }
 
 @media screen and (max-width: 360px) {
+  .blog {
+    height: 2200px;
+  }
+
   .blog__footer {
-    height: 736px;
+    margin-top: -350px;
     background: url(../images/footer_image2.jpg) no-repeat;
   }
 
