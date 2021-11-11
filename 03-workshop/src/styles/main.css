@@ -42,7 +42,8 @@
   color: #798285;
 }
 
-.text_align, .button__text_align {
+.text_align,
+.button__text_align {
   text-align: center;
 }
 
