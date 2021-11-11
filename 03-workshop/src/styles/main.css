@@ -42,7 +42,7 @@
   color: #798285;
 }
 
-.text_align {
+.text_align, .button__text_align {
   text-align: center;
 }
 
@@ -109,7 +109,6 @@
   font-weight: 500;
   line-height: 22px;
   letter-spacing: 0.05em;
-  text-align: center;
   color: #fff;
 }
 
