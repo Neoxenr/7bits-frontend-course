@@ -22,7 +22,9 @@
   letter-spacing: 0.1em;
 }
 
-.header__title_uppercase, .post__title_uppercase, .button__text_uppercase {
+.header__title_uppercase,
+.post__title_uppercase,
+.button__text_uppercase {
   text-transform: uppercase;
 }
 
