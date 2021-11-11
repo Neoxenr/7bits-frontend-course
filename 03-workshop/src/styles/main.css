@@ -164,7 +164,7 @@
   }
 
   .post__button {
-    margin: 10px 0 0 73.5px;
+    margin: 5px 0 0 74px;
   }
 
   .post__right {
@@ -173,7 +173,7 @@
 
   .footer {
     height: 736px;
-    margin-top: -357px;
+    margin-top: -350px;
     background: url(../images/footer_image2.jpg) no-repeat;
   }
 }
