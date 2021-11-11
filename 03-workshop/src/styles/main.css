@@ -128,7 +128,7 @@
   }
 
   .header__title {
-    margin: 40px 0 14px;
+    margin: 40px 0 16px;
     font-size: 32px;
     line-height: 38px;
   }
@@ -158,7 +158,7 @@
   }
 
   .post__subtitle {
-    margin-top: 23px;
+    margin: 23px 0 16px;
     font-size: 24px;
     line-height: 31px;
   }
