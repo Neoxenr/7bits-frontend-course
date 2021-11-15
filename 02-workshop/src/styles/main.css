@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 900px;
+}
+
+.main__title {
+  margin: -10px 0 0 -412px;
+  padding: 10px 26px;
+  background-color: #e8c734;
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.main__content__item {
+  width: 520px;
+  height: 69px;
+  margin-top: 40px;
+}
+
+.main__content__item__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.main__content__item__progress-bar {
+  position: relative;
+  border: 0.2px solid #bfc0c1;
+  margin-top: 18px;
+  height: 23px;
+}
+
+.main__content__item__progress-bar::before {
+  content: "";
+  position: absolute;
+  background-color: #bfc0c1;
+  height: 23px;
+}
+
+.main__content__item:nth-of-type(odd) .main__content__item__progress-bar::before {
+  width: 398px;
+}
+
+.main__content__item:nth-of-type(even) .main__content__item__progress-bar::before {
+  width: 462px;
+}
