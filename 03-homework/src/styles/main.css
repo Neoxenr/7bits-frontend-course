@@ -253,6 +253,7 @@ body {
   height: 63.5vh;
   width: 100%;
   background: url(../images/post_header.jpg) no-repeat;
+  background-size: cover;
 }
 
 .post__thing_italic {
@@ -479,6 +480,7 @@ body {
   }
 
   .post__description {
+    width: 70vw;
     line-height: 26px;
     font-size: 16px;
   }
@@ -489,24 +491,45 @@ body {
   }
 
   .post__button {
-    margin: 3.5vh 0 1vh 3%;
+    margin: 3.5vh 0 0 36.5%;
   }
 
   .post__header {
-    /* width: 448px;
-    height: 314px; */
-  }
-
-  .main__post:nth-of-type(1) > .post__list {
-    margin-left: 24%;
-    margin-bottom: 9.5vh;
+    height: 48vh;
+    background: url(../images/post_header480.jpg) no-repeat;
   }
 
   .list__tag {
     margin-left: 12px;
   }
 
+  .main__post:nth-of-type(1) > .post__list {
+    margin-left: 26%;
+    margin-bottom: 9.5vh;
+  }
+
   .main__post:nth-of-type(2) > .post__list {
+    margin-top: 1vh;
+    margin-bottom: 9.2vh;
+    margin-left: 28%;
+  }
+
+  .main__post:nth-of-type(2) > .post__date {
+    margin-top: 5vh;
+    margin-bottom: 3.2vh;
+  }
+
+  .main__post:nth-of-type(2) > .post__thing {
+    font-size: 20px;
+    margin-bottom: 5.5vh;
+  }
+
+  .main__post:nth-of-type(2) > .post__description {
+    margin-bottom: 3.7vh;
+  }
+
+  .main__post:nth-of-type(2) > .post__button {
+    margin-top: -2vh;
   }
 
   .main__post:nth-of-type(3) > .post__list {
