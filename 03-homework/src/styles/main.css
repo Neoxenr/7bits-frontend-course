@@ -12,9 +12,13 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  width: 66.25vw;
   background: #f7f9fc;
+}
+
+.header,
+.main {
+  width: 66.25vw;
+  margin: 0 auto;
 }
 
 .header {
@@ -22,9 +26,9 @@ body {
 }
 
 .header__logo {
-  display: inline-block;
   width: 11vw;
   margin: 1.5vh 18.33vw 0 0;
+  display: inline-block;
 }
 
 .list {
@@ -34,7 +38,7 @@ body {
 }
 
 .header__list {
-  margin-top: 3vh;
+  margin-top: 2.5vh;
 }
 
 .list__item,
@@ -70,7 +74,7 @@ body {
 .list__tag {
   font-weight: 700;
   font-size: 1em;
-  margin: 5vh 0 0 1vw;
+  margin: 3vh 0 0 1vw;
 }
 
 .footer__link::after {
@@ -167,7 +171,7 @@ body {
 }
 
 .main__post:nth-of-type(1) {
-  margin-top: 10.7vh;
+  margin-top: 10.6vh;
 }
 
 .main__post:nth-of-type(2) {
@@ -175,7 +179,7 @@ body {
 }
 
 .main__post:nth-of-type(3) {
-  margin: 10vh 0 12.3vh;
+  margin: 9.5vh 0 12vh;
 }
 
 .label {
@@ -193,7 +197,6 @@ body {
 }
 
 .main__post:nth-of-type(1) > .post__label {
-  /* width: 5.8vw; */
   width: 83px;
   left: 62.2vw;
   top: 3.6vh;
@@ -201,13 +204,11 @@ body {
 
 .main__post:nth-of-type(2) > .post__label {
   width: 98px;
-  /* width: 6.8vw; */
   left: 61.2vw;
   top: 67vh;
 }
 
 .main__post:nth-of-type(3) > .post__label {
-  /* width: 6.2vw; */
   width: 90px;
   left: 61.7vw;
   top: 3.6vh;
@@ -248,6 +249,12 @@ body {
   color: #999;
 }
 
+.post__header {
+  height: 63.5vh;
+  width: 100%;
+  background: url(../images/post_header.jpg) no-repeat;
+}
+
 .post__thing_italic {
   font-style: italic;
 }
@@ -284,7 +291,7 @@ body {
 }
 
 .post__button {
-  margin: 5.3vh 0 10.3vh 6.85vw;
+  margin: 5.1vh 0 10.5vh 6.85vw;
 }
 
 .button {
@@ -312,7 +319,7 @@ body {
 }
 
 .main__post:nth-of-type(1) > .post__list {
-  margin: 0.2vh 0 0 29vw;
+  margin: 2.5vh 0 0 29vw;
 }
 
 .main__post:nth-of-type(2) > .post__list {
@@ -330,10 +337,11 @@ body {
 }
 
 .footer {
+  /* margin-left: -17vw; */
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   background: #5c6bc0;
 }
 
@@ -411,8 +419,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  body {
-    width: 93vw;
+  .header,
+  .main {
+    width: 93.5vw;
   }
 
   .header {
@@ -477,12 +486,12 @@ body {
   }
 
   .post__button {
-    margin: 3.5vh 0 0.3vh 35%;
+    margin: 3.5vh 0 1vh 3%;
   }
 
   .post__header {
-    width: 448px;
-    height: 314px;
+    /* width: 448px;
+    height: 314px; */
   }
 
   .main__post:nth-of-type(1) > .post__list {
@@ -493,14 +502,13 @@ body {
   .list__tag {
     margin-left: 12px;
   }
-  /*   
+
   .main__post:nth-of-type(2) > .post__list {
-    margin-left: ;
   }
-  
+
   .main__post:nth-of-type(3) > .post__list {
     margin: 0.6vh 0 0 30.2vw;
-  } */
+  }
 
   .main__post:nth-of-type(1) > .post__label {
     left: 81.5%;
