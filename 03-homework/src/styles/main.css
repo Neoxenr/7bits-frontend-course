@@ -349,11 +349,6 @@
   color: #fff;
 }
 
-.footer__list .list__link::after,
-.footer__link::after {
-  background-color: #fff;
-}
-
 .footer__list .list__link-icon:hover {
   opacity: 0.4;
 }
