@@ -77,11 +77,6 @@
   grid-column-end: 3;
 }
 
-.form__label:nth-of-type(4) > .form__input {
-  width: 98%;
-  padding-bottom: 123px;
-}
-
 .form__input {
   width: 96%;
   padding: 12px 0 12px 12px;
@@ -94,6 +89,11 @@
 
 .form__input::placeholder {
   color: #bcbdbf;
+}
+
+.form__label:nth-of-type(4) > .form__input {
+  width: 98%;
+  padding-bottom: 123px;
 }
 
 .form__button {
