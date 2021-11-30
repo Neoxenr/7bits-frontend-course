@@ -1,0 +1,49 @@
+.main__left {
+  width: 660px;
+  height: 1167px;
+  margin: 0 74px 0 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.photodiary__section-name {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #626262;
+}
+
+.photodiary__title {
+  margin: 20px 0 40px;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #424243;
+}
+
+.photodiary__description {
+  width: 660px;
+  height: 210px;
+  display: inline-block;
+}
+
+.photodiary__text {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.photodiary__image {
+  margin: 101px 0 40px 0;
+}
