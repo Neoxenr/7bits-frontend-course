@@ -9,7 +9,7 @@ function concatCssAndCopy() {
 }
 
 function copyHtml() {
-  return gulp.src("src/templates/*.html").pipe(gulp.dest("build/templates"));
+  return gulp.src("src/templates/*.html").pipe(gulp.dest("build/"));
 }
 
 exports.default = gulp.parallel(concatCssAndCopy, copyHtml);
