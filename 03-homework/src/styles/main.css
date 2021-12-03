@@ -165,18 +165,6 @@
   outline: 1px solid #5c6bc0;
 }
 
-.button__text {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.04em;
-  color: #5c6bc0;
-}
-
-.button__text_uppercase {
-  text-transform: uppercase;
-}
-
 .label {
   padding: 6px 8px 7px;
   background: #5c6bc0;
@@ -189,13 +177,6 @@
 
 .label:active {
   background: #4654a3;
-}
-
-.label__text {
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 17px;
-  color: #fff;
 }
 
 .post {
@@ -224,6 +205,22 @@
   left: 16%;
   position: relative;
   align-self: flex-end;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  color: #fff;
+}
+
+.post__button {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #5c6bc0;
+}
+
+.post__button_uppercase {
+  text-transform: uppercase;
 }
 
 .post__date {
