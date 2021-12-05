@@ -1,0 +1,58 @@
+{{#> layout/layout title="Contacts"}}
+<main class="main-contacts">
+  <form class="main-contacts__form form">
+    <div class="form__header">
+      <legend class="form__title">Contact Info</legend>
+      <p class="form__description">
+        Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at
+        placerat ante posuere non. Integer at dui a lacus suscipit elementum id
+        non massa. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.
+      </p>
+    </div>
+    <fieldset class="form__fieldset">
+      <label class="form__label">
+        <input
+          class="form__input"
+          type="text"
+          name="username"
+          tabindex="1"
+          placeholder="Your name"
+        />
+      </label>
+      <label class="form__label">
+        <input
+          class="form__input"
+          type="email"
+          name="email"
+          tabindex="2"
+          placeholder="Email"
+        />
+      </label>
+      <label class="form__label">
+        <input
+          class="form__input"
+          type="text"
+          name="subject"
+          tabindex="3"
+          placeholder="Subject"
+        />
+      </label>
+      <label class="form__label">
+        <input
+          class="form__input"
+          type="text"
+          name="message"
+          tabindex="4"
+          placeholder="Your message"
+        />
+      </label>
+    </fieldset>
+    <div class="form__footer">
+      <button class="form__button form__button_uppercase button">
+        Send Message
+      </button>
+    </div>
+  </form>
+</main>
+{{/layout/layout}}
