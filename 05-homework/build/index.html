@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="lorem, ipsum">
+    <meta name="description" content="Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis.
+        Praesent dictum eleifend dui et efficitur. Nunc non orci in neque
+        sodales semper. Etiam euismod volutpat lorem">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.ico" sizes="32x32"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <header class="header">
+      <picture>
+        <source
+          srcset="./images/sprite.svg#header_logo320"
+          media="(max-width: 320px)"
+          width="112"
+          height="24"
+        />
+        <source
+          srcset="./images/sprite.svg#header_logo480"
+          media="(max-width: 480px)"
+          width="120"
+          height="25"
+        />
+        <img
+          class="header__logo"
+          src="./images/sprite.svg#header_logo1440"
+          width="157"
+          height="33"
+        />
+      </picture>
+      <ul class="header__list list">
+        <li class="list__item">
+          <a
+            class="list__link list__link_uppercase list__link_decoration"
+            href="./index.html"
+          >Home</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_uppercase list__link_decoration"
+            href="#about"
+          >About</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_uppercase list__link_decoration"
+            href="#archive"
+          >Archive</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_uppercase list__link_decoration"
+            href="./contacts.html"
+          >Contact</a>
+        </li>
+        <li class="list__item">
+          <a class="list__link-icon" href="#"></a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="main__post post">
+        <header class="post__header">
+          <button class="post__label label">I Do Travel</button>
+          <p class="post__date">Sep 20</p>
+          <h3 class="post__title">
+            No difference how many peaks you reach if there was no pleasure in the
+            climb.
+          </h3>
+        </header>
+        <p class="post__description">
+          Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut
+          ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu
+          pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum
+          congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
+          egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim
+          efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum.
+          Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi,
+          aliquam sed tincidunt sit amet, pretium et augue.
+        </p>
+        <footer class="post__footer">
+          <button class="post__button post__button_uppercase button">
+            Read More
+          </button>
+          <ul class="tags">
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Yosemite</a>
+            </li>
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Peak</a>
+            </li>
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Explorer</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <div class="main__post post">
+        <picture>
+          <source srcset="./images/post_image320.jpg 1x, ./images/post_image320@2x.jpg 2x" media="(max-width: 320px)" />
+          <source srcset="./images/post_image480.jpg 1x, ./images/post_image480@2x.jpg 2x" media="(max-width: 480px)" />
+          <img class="post__image" srcset="./images/post_image1440.jpg 1x, ./images/post_image1440@2x.jpg 2x" media="(max-width: 1440px)" width="954" height="520"/>
+        </picture>
+        <header class="post__header">
+          <button class="post__label label">I Do Observe</button>
+          <p class="post__date">Sep 18</p>
+          <h3 class="post__title">
+            You know, I'd rather argue with you, then laugh with anyone else.
+          </h3>
+        </header>
+        <p class="post__comment post__comment_italic">
+          Curabitur luctus placerat lorem id eleifend. Nulla ac lacus finibus,
+          tempor velit hendrerit, vulputate lacus. Nunc fermentum nunc sem, ac
+          eleifend tellus cursus nec. Donec a euismod est, vitae accumsan purus.
+          Proin aliquet ex massa, ac finibus magna commodo vitae.
+        </p>
+        <p class="post__description">
+          Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet. Ut
+          ac elementum urna. Pellentesque suscipit metus et egestas congue. Duis eu
+          pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae rutrum
+          congue. Fusce luctus augue id nisl suscipit, vel sollicitudin orci
+          egestas. Morbi posuere venenatis ipsum, ac vestibulum quam dignissim
+          efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a viverra ipsum.
+          Aenean ut consequat ex, vitae vulputate nunc. Vestibulum metus nisi,
+          aliquam sed tincidunt sit amet, pretium et augue.
+        </p>
+        <p class="post__description">
+          Sed sagittis commodo dolor. Vivamus elementum sem sed sapien bibendum
+          viverra. Curabitur semper scelerisque turpis eu ullamcorper. Morbi
+          tincidunt auctor orci id consequat. Nulla odio mi, iaculis id congue quis,
+          euismod id nisi. In varius congue diam, et viverra lorem bibendum ut.
+        </p>
+        <footer class="post__footer">
+          <button class="post__button post__button_uppercase button">
+            Read More
+          </button>
+          <ul class="tags">
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Yosemite</a>
+            </li>
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Peak</a>
+            </li>
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Photo</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+      <div class="main__post post">
+        <header class="post__header">
+          <button class="post__label label">I Do Reflect</button>
+          <p class="post__date">Sep 11</p>
+          <h3 class="post__title">
+            Democracy means simply the bludgeoning of the people by the people for
+            the people.
+          </h3>
+        </header>
+        <div class="post__float">
+          <img class="post__aside-image" srcset="./images/post_aside-image.jpg 1x, ./images/post_aside-image@2x.jpg 2x" width="235" height="490"/>
+          <p class="post__description">
+            Quisque congue lacus mattis massa luctus, nec hendrerit purus aliquet.
+            Ut ac elementum urna. Pellentesque suscipit metus et egestas congue.
+            Duis eu pellentesque turpis, ut maximus metus. Sed ultrices tellus vitae
+            rutrum congue. Fusce luctus augue id nisl suscipit, vel sollicitudin
+            orci egestas. Morbi posuere venenatis ipsum, ac vestibulum quam
+            dignissim efficitur. Ut vitae rutrum augue, in volutpat quam. Cras a
+            viverra ipsum. Aenean ut consequat ex, vitae vulputate nunc. Vestibulum
+            metus nisi, aliquam sed tincidunt sit amet, pretium et augue.
+          </p>
+          <p class="post__description">
+            Mauris sem odio, rhoncus eget euismod sed, pellentesque sit amet felis.
+            Praesent dictum eleifend dui et efficitur. Nunc non orci in neque
+            sodales semper. Etiam euismod volutpat lorem,
+            <a class="post__link" href="#vestibulum malesuada">vestibulum malesuada</a>
+            justo aliquet eget. Nunc lacus ante, varius a euismod eu, finibus
+            commodo erat. Curabitur tincidunt sit amet nunc id interdum. Aliquam
+            augue nisi, venenatis vitae ex at, lobortis fringilla nibh. Proin
+            placerat enim vitae egestas eleifend. Aliquam quis orci dignissim,
+            posuere nibh a, eleifend augue. Cras quis metus nec tortor aliquet
+            ullamcorper. Quisque varius porta metus, ut maximus dolor euismod nec.
+            Suspendisse sit amet feugiat turpis.
+          </p>
+        </div>
+        <p class="post__thing">
+          Curabitur ut leo pulvinar, consectetur magna eu, feugiat purus. Morbi
+          hendrerit lectus turpis, a porttitor velit imperdiet id.
+        </p>
+        <p class="post__description">
+          Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem,
+          consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at
+          quam tincidunt imperdiet. Nulla mattis tincidunt auctor. Nullam
+          scelerisque ante mauris, egestas commodo nisi gravida ultrices.
+          Suspendisse dapibus feugiat tincidunt. Aliquam gravida quam at ipsum
+          sagittis bibendum.
+        </p>
+        <footer class="post__footer">
+          <button class="post__button post__button_uppercase button">
+            Read More
+          </button>
+          <ul class="tags">
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Democracy</a>
+            </li>
+            <li class="tags__item">
+              <a class="tags__link tags__link_decoration">#Introspection</a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <img
+        class="footer__logo"
+        src="./images/sprite.svg#footer_logo"
+        width="135"
+        height="28"
+      />
+      <ul class="footer__list list">
+        <li class="list__item">
+          <a
+            class="list__link list__link_decoration list__link_uppercase"
+            href="./index.html"
+          >Home</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_decoration list__link_uppercase"
+            href="#about"
+          >About</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_decoration list__link_uppercase"
+            href="#archive"
+          >Archive</a>
+        </li>
+        <li class="list__item">
+          <a
+            class="list__link list__link_decoration list__link_uppercase"
+            href="./contacts.html"
+          >Contact</a>
+        </li>
+        <li class="list__item">
+          <a class="list__link-icon" href="#"></a>
+        </li>
+      </ul>
+      <p class="footer__description">
+        Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem,
+        consectetur nec hendrerit ut, ullamcorper ac odio. Donec viverra ligula at
+        quam tincidunt imperdiet. Nulla mattis tincidunt auctor.
+      </p>
+      <p class="footer__copyright">
+        © 2015 - Palo Alto. All Rights Reserved. Designed & Developed by
+        <a
+          class="footer__link footer__link_decoration"
+          href="#pixelbuddha"
+        >PixelBuddha Team
+        </a>
+      </p>
+      <ul class="footer__media media">
+        <li class="media__item">
+          <a class="media__link media__link-facebook" href="#"></a>
+        </li>
+        <li class="media__item">
+          <a class="media__link media__link-twitter" href="#"></a>
+        </li>
+        <li class="media__item">
+          <a class="media__link media__link-instagram" href="#"></a>
+        </li>
+        <li class="media__item">
+          <a class="media__link media__link-pinterest" href="#"></a>
+        </li>
+      </ul>
+    </footer>  </body>
+</html>
