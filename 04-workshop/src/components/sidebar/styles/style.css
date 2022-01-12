@@ -1,0 +1,78 @@
+.main__right {
+  width: 272px;
+  height: 556px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar__image {
+  margin-bottom: 30px;
+}
+
+.sidebar__title {
+  margin: 0 0 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.sidebar__description {
+  width: 277px;
+  height: 51px;
+  display: inline-block;
+}
+
+.sidebar__text {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+}
+
+.sidebar__posts {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 400;
+  color: #bababa;
+}
+
+.posts__item {
+  margin: 0 0 0 18px;
+  padding: 0 0 0 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.post__title {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+  color: #424243;
+}
+
+.post__comments {
+  margin: 0 0 25px 0;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  color: #626262;
+}
+
+.sidebar__posts-title {
+  margin: 35px 0 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #626262;
+}
