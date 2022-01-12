@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>03-base-practice</title>
+  </head>
+  <body>
+    <main>
+      <form class="main__form">
+        <legend class="main__legend">Давайте начнем!</legend>
+        <label class="main__label main__label_text" for="name"> Имя </label>
+        <input class="main__input main__input_text" id="name" type="text"
+        placeholder="Иван"/ tabindex="1">
+        <label class="main__label main__label_text" for="surname">
+          Фамилия
+        </label>
+        <input
+          class="main__input main__input_text"
+          id="surname"
+          type="text"
+          placeholder="Иванов"
+          tabindex="2"
+        />
+        <label class="main__label main__label_text">
+          <p>Ваш пол</p>
+          <input
+            class="main__input-radio"
+            type="radio"
+            tabindex="3"
+            name="gender"
+            checked
+          />
+          <span class="main__input-radio_text">Женский</span>
+          <input
+            class="main__input-radio"
+            type="radio"
+            name="gender"
+            tabindex="4"
+          />
+          <span class="main__input-radio_text">Мужской</span>
+        </label>
+        <label class="main__label main__label_text" for="email"> Email </label>
+        <input
+          class="main__input main__input_text"
+          type="email"
+          id="email"
+          placeholder="example@mail.com"
+          tabindex="5"
+        />
+        <label class="main__label main__label_text" for="password">
+          Пароль
+        </label>
+        <input
+          class="main__input main__input_text"
+          id="password"
+          type="password"
+          placeholder="Пароль"
+          tabindex="6"
+        />
+        <label class="main__label">
+          <input class="main__checkbox" type="checkbox" tabindex="7" />
+          <span class="main__checkbox-text"
+            >Я принимаю условия Пользовательского соглашения и даю своё согласие
+            на обработку моих персональных данных на условиях, определенных
+            Политикой конфиденциальности.</span
+          >
+        </label>
+        <button
+          class="main__button-confirm main__button-confirm_text"
+          tabindex="8"
+        >
+          Зарегистрироваться
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
