@@ -1,0 +1,59 @@
+main {
+  width: 700px;
+  margin: 0 auto;
+  font-family: "Arial", sans-serif;
+}
+
+a {
+  font-weight: 600;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a::after {
+  display: block;
+  content: "";
+  width: 0%;
+  border-bottom: 2px solid blue;
+  transition: width 0.4s ease-in-out;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+div:first-child > a {
+  color: #444;
+}
+
+div:last-child a {
+  color: #3f50b5;
+}
+
+div:last-child p:first-child a:last-child {
+  background-color: #ffe082;
+}
+
+div:nth-of-type(2),
+span {
+  font-style: italic;
+}
+
+div:nth-of-type(2) > span,
+ul:first-of-type > li:first-of-type li:last-child,
+ul:first-of-type > li:nth-of-type(5),
+ul:first-of-type > li:nth-of-type(8) li:nth-of-type(2),
+ul:first-of-type > li:nth-of-type(8) li:last-of-type,
+ul:first-of-type > li:nth-of-type(10) {
+  background-color: #ffe082;
+}
+
+ul:first-of-type > li:first-of-type li:last-child > span {
+  font-weight: 600;
+  font-style: normal;
+}
+
+div > div:last-of-type {
+  border: 1px solid #FFE082;
+  padding: 20px;
+}
