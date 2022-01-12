@@ -1,0 +1,17 @@
+{
+  "name": "04-base-practice",
+  "version": "1.0.0",
+  "description": "Открыть файл src/templates/index.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dolgushin Ivan",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-concat": "^2.6.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
