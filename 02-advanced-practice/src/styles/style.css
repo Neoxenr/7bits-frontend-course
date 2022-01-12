@@ -54,6 +54,6 @@ ul:first-of-type > li:first-of-type li:last-child > span {
 }
 
 div > div:last-of-type {
-  border: 1px solid #FFE082;
+  border: 1px solid #ffe082;
   padding: 20px;
 }
