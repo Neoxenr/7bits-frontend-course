@@ -40,11 +40,11 @@ span {
 }
 
 div:nth-of-type(2) > span,
-ul:first-of-type > li:first-of-type li:last-child,
 ul:first-of-type > li:nth-of-type(5),
+ul:first-of-type > li:nth-of-type(10),
+ul:first-of-type > li:first-of-type li:last-child,
 ul:first-of-type > li:nth-of-type(8) li:nth-of-type(2),
-ul:first-of-type > li:nth-of-type(8) li:last-of-type,
-ul:first-of-type > li:nth-of-type(10) {
+ul:first-of-type > li:nth-of-type(8) li:last-of-type {
   background-color: #ffe082;
 }
 
