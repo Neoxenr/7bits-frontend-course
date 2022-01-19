@@ -20,7 +20,7 @@
 }
 
 .header__list .list__link-icon:hover {
-  background: url(../images/icons/search_violet.svg) no-repeat;
+  background: url("../images/icons/search_violet.svg") no-repeat;
 }
 
 @media screen and (max-width: 1040px) {
@@ -63,7 +63,7 @@
   .header__list {
     width: 24px;
     height: 14px;
-    background: url(../images/icons/burger_menu.svg);
+    background: url("../images/icons/burger_menu.svg");
   }
 }
 
