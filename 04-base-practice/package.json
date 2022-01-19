@@ -9,9 +9,12 @@
   "author": "Dolgushin Ivan",
   "license": "ISC",
   "dependencies": {
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "nvm": "0.0.4"
   },
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "stylelint": "^14.2.0",
+    "stylelint-config-standard": "^24.0.0"
   }
 }
