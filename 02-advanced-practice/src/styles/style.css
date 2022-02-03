@@ -14,20 +14,23 @@ a::after {
   display: block;
   content: "";
   width: 0%;
-  border-bottom: 2px solid blue;
-  transition: width 0.4s ease-in-out;
+  border-bottom: 2px solid #444;
 }
 
 a:hover::after {
   width: 100%;
 }
 
-div:first-child > a {
+div > div:first-child a {
   color: #444;
 }
 
-div:last-child a {
+div > div:last-child a {
   color: #3f50b5;
+}
+
+div > div:last-child a::after {
+  border-bottom: 2px solid #3f50b5;
 }
 
 div:last-child p:first-child a:last-child {
@@ -54,6 +57,6 @@ ul:first-of-type > li:first-of-type li:last-child > span {
 }
 
 div > div:last-of-type {
-  border: 1px solid #ffe082;
+  border: 2px solid #ffe082;
   padding: 20px;
 }
