@@ -9,7 +9,7 @@
 }
 
 .footer__list .list__link-icon {
-  background: url(../images/icons/search_white.svg) no-repeat;
+  background: url("../images/icons/search_white.svg") no-repeat;
 }
 
 .footer {
@@ -97,19 +97,19 @@
 }
 
 .media__link-facebook {
-  background: url(../images/icons/facebook.svg) no-repeat;
+  background: url("../images/icons/facebook.svg") no-repeat;
 }
 
 .media__link-twitter {
-  background: url(../images/icons/twitter.svg) no-repeat;
+  background: url("../images/icons/twitter.svg") no-repeat;
 }
 
 .media__link-instagram {
-  background: url(../images/icons/instagram.svg) no-repeat;
+  background: url("../images/icons/instagram.svg") no-repeat;
 }
 
 .media__link-pinterest {
-  background: url(../images/icons/pinterest.svg) no-repeat;
+  background: url("../images/icons/pinterest.svg") no-repeat;
 }
 
 @media screen and (max-width: 600px) {

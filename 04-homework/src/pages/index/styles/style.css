@@ -52,7 +52,7 @@
 }
 
 .post {
-  box-shadow: 0 2px 30px rgba(21, 20, 53, 0.3);
+  box-shadow: 0 2px 30px rgba(21, 20, 53, 30%);
   padding-bottom: 85px;
 }
 

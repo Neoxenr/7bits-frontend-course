@@ -6,7 +6,7 @@ header {
 
 .header__title {
   margin: 0 273px 0 0;
-  font-family: "Inconsolata", monospace;
+  font-family: Inconsolata, monospace;
   font-size: 30px;
   font-style: normal;
   font-weight: 400;
@@ -19,7 +19,7 @@ header {
 .header__sections-item {
   margin: 0 0 0 94.4px;
   display: inline-block;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .header__sections-link {
