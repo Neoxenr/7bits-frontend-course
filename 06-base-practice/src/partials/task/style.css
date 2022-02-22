@@ -1,0 +1,7 @@
+.task {
+  margin-bottom: 40px;
+}
+
+.task:last-child {
+  margin-bottom: 0;
+}

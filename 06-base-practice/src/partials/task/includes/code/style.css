@@ -1,0 +1,16 @@
+.task__code {
+  display: block;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: var(--color-lightest-grey);
+  white-space: normal;
+}
+
+.task_answer {
+  background-color: var(--color-lightest-yellow);
+}
+
+.task-line {
+  display: block;
+  white-space: pre;
+}

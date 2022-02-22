@@ -1,0 +1,172 @@
+{
+  "taskList": [
+    {
+      "id": 0,
+      "title": "Задание 1",
+      "description": "Создайте копию объекта, указанного ниже, так, чтобы изменение нового объекта не приводило к изменению старого. Используйте оператор расширения или Object.assign().",
+      "code": {
+        "obj1": {
+          "firstName": "Vasya",
+          "lastName": "Ivanov",
+          "gender": "male",
+          "relatives": [
+            {
+              "firstName": "Tanya",
+              "lastName": "Ivanova"
+            },
+            {
+              "firstName": "Lena",
+              "lastName": "Ivanova"
+            },
+            {
+              "firstName": "Roma",
+              "lastName": "Ivanov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 1,
+      "title": "Задание 2",
+      "description": "Объедините объекты, указанные ниже, в один новый. Убедитесь, что изменение нового объекта не приводит к изменению старых. Используйте оператор расширения или Object.assign().",
+      "code": {
+        "obj1": {
+          "a": 1,
+          "b": 2,
+          "c": 3
+        },
+        "obj2": {
+          "b": 7,
+          "c": 8,
+          "d": 9
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Задание 3",
+      "description": "В каждый объект массива relatives добавьте поле gender. Используйте синтаксис стрелочных функций.",
+      "code": {
+        "obj1": {
+          "firstName": "Vasya",
+          "lastName": "Ivanov",
+          "gender": "male",
+          "relatives": [
+            {
+              "firstName": "Tanya",
+              "lastName": "Ivanova"
+            },
+            {
+              "firstName": "Lena",
+              "lastName": "Ivanova"
+            },
+            {
+              "firstName": "Roma",
+              "lastName": "Ivanov"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Задание 4",
+      "description": "Добавьте поле greeting для Васи и его родственников. Поместите в него текст приветствия. Используйте шаблонные строки. Пример: {\"firstName\": \"Tanya\", \"lastName\": \"Ivanova\", \"gender\": \"female\", \"greeting\": \"Hello Tanya Ivanova!\"}",
+      "code": {
+        "obj1": {
+          "firstName": "Vasya",
+          "lastName": "Ivanov",
+          "gender": "male",
+          "relatives": [
+            {
+              "firstName": "Tanya",
+              "lastName": "Ivanova",
+              "gender": "female"
+            },
+            {
+              "firstName": "Lena",
+              "lastName": "Ivanova",
+              "gender": "female"
+            },
+            {
+              "firstName": "Roma",
+              "lastName": "Ivanov",
+              "gender": "male"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Задание 5",
+      "description": "Найдите элемент DOM дерева с указанным классом. Далее у полученного элемента измените значение свойства 'background-color' на указанный цвет.",
+      "code": {
+        "color": "red",
+        "className": "button_4"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Задание 6",
+      "description": "Создайте копию массива hostNames, указанного ниже, оставив только значения, соответствующие имени хоста, на котором запущено приложение. Имя текущего хоста должно быть получено ранее изученным способом, а не быть текстовой константой.",
+      "code": {
+        "hostNames": ["localhost", "yandex.ru", "google.com", "localhost", "localhost", "ru.wikipedia.org", "vk.com", "localhost"]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Задание 7",
+      "description": "Поменяйте местами ключи и значения объекта, указанного ниже. В результате вы должны получить новый объект, а исходный должен остаться без изменений.",
+      "code": {
+        "key1": "value1",
+        "key2": "value2",
+        "key3": "value3",
+        "key4": "value4"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Задание 8",
+      "description": "Объедините два массива указанных ниже в один. Далее создайте объект, ключи которого являются элементами этого массива с четным индексом (0, 2, ...), а значения — с нечетным. Если ключ не имеет пары, то его значение должно быть равным null.",
+      "code": {
+        "arr1": ["key1", "value1", "key2", "value2", "key3"],
+        "arr2": ["value3", "key4"]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Задание 9",
+      "description": "Создайте объект в котором в качестве ключей будут использоваться значения полей id из объектов перечисленных ниже, а в качестве значений — сами объекты.",
+      "code": {
+        "users": [
+          {
+            "id": 0,
+            "firstName": "Tanya",
+            "lastName": "Ivanova"
+          },
+          {
+            "id": 1,
+            "firstName": "Lena",
+            "lastName": "Ivanova"
+          },
+          {
+            "id": 2,
+            "firstName": "Roma",
+            "lastName": "Ivanov"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "title": "Задание 10",
+      "description": "Найдите элемент DOM дерева с именем класса, указанным ниже, а затем добавьте в массив childrenInfo объекты с информацией о имени тега и имени класса каждого 'ребёнка' найденного узла.",
+      "code": {
+        "className": "task_9",
+        "childrenInfo": []
+      }
+    }
+  ]
+}
