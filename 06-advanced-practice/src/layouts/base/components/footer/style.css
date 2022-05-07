@@ -1,0 +1,24 @@
+.footer {
+  background-color: var(--color-blue);
+  padding: 45px 0;
+  font-family: var(--font-default);
+}
+
+.footer__content {
+  height: 100%;
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 0 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.footer__logo {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--color-dark-blue);
+}
