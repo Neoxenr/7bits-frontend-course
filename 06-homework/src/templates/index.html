@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <title>7bits-front-end-courses-practice-7-8</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="main__title">Давайте начнем!</h1>
+      <form class="main__form form">
+        <label class="form__label">
+          Имя
+          <input
+            class="form__text-field"
+            type="text"
+            placeholder="Чендлер"
+            tabindex="1"
+            id="first-name"
+          />
+        </label>
+        <label class="form__label">
+          Фамилия
+          <input
+            class="form__text-field"
+            type="text"
+            placeholder="Бинг"
+            tabindex="2"
+            id="last-name"
+          />
+        </label>
+        <label class="form__label">
+          Ваш пол
+          <div class="form__radio-group radio-group">
+            <label class="radio-group__label">
+              <input
+                class="radio-group__radio"
+                type="radio"
+                name="gender"
+                checked="checked"
+                tabindex="3"
+                id="gender-female"
+              />
+              Женский
+            </label>
+            <label class="radio-group__label">
+              <input
+                class="radio-group__radio"
+                type="radio"
+                name="gender"
+                tabindex="4"
+                id="gender-male"
+              />
+              Мужской
+            </label>
+          </div>
+        </label>
+        <label class="form__label">
+          Введите электронный адрес
+          <input
+            class="form__text-field"
+            type="email"
+            placeholder="chandler.bing@gmail.com"
+            tabindex="5"
+            id="email"
+          />
+        </label>
+        <label class="form__label">
+          Придумайте пароль
+          <input
+            class="form__text-field form__text-field_password"
+            type="password"
+            tabindex="6"
+          />
+        </label>
+        <div class="form__user-agreement-wrapper">
+          <input
+            class="form__user-agreement-checkbox form__checkbox"
+            type="checkbox"
+            tabindex="7"
+            id="user-agreement-checkbox"
+          />
+          <label
+            class="form__user-agreement-label user-agreement-label"
+            for="user-agreement-checkbox"
+          >
+            Я принимаю условия
+            <a class="user-agreement-label__link" href="#">
+              Пользовательского соглашения
+            </a>
+            и даю своё согласие на обработку моих персональных данных на
+            условиях, определенных
+            <a class="user-agreement-label__link" href="#">
+              Политикой конфиденциальности </a
+            >.
+          </label>
+        </div>
+        <button class="form__register-button" type="submit" tabindex="8">
+          Зарегистрироваться
+        </button>
+      </form>
+    </main>
+    <script src="../scripts/index.js"></script>
+  </body>
+</html>

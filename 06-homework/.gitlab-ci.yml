@@ -1,0 +1,31 @@
+image: node:12
+
+stages:
+  - install
+  - lint
+
+install:
+  stage: install
+  script:
+    - npm install
+  artifacts:
+    name: "artifacts"
+    untracked: true
+    expire_in: 30 mins
+    paths:
+      - .npm/
+      - node_modules/
+  only:
+    - merge_request
+
+lint:
+  stage: lint
+  script:
+    - npm run lint
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - junit.xml
+  only:
+    - merge_requests
