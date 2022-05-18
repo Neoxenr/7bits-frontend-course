@@ -1,0 +1,41 @@
+{
+  "name": "7bits-frontend-courses-workshops-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "4.7.7"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.12",
+    "@babel/preset-env": "7.16.11",
+    "@babel/eslint-parser": "7.16.5",
+    "babel-loader": "8.2.3",
+    "css-loader": "6.5.1",
+    "eslint": "8.7.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-prettier": "4.0.0",
+    "handlebars-loader": "1.7.1",
+    "html-webpack-plugin": "5.0.0",
+    "mini-css-extract-plugin": "2.5.3",
+    "webpack": "5.67.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.3"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development webpack serve --hot",
+    "build": "NODE_ENV=production webpack",
+    "lint": "eslint ./src --max-warnings=0 --no-error-on-unmatched-pattern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.7bits.it/it-lift-courses/2021-2022/development/7bits-frontend-course-6-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.7bits.it/it-lift-courses/2021-2022/development/7bits-frontend-course-6-workshop/-/issues"
+  },
+  "homepage": "https://gitlab.7bits.it/it-lift-courses/2021-2022/development/7bits-frontend-course-6-workshop"
+}
