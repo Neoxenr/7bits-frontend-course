@@ -1,0 +1,20 @@
+.header {
+  background-color: var(--color-blue);
+  font-family: var(--font-default);
+  position: relative;
+  z-index: 10;
+}
+
+.header__content {
+  box-sizing: border-box;
+  max-width: 960px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  color: var(--color-white);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+}
